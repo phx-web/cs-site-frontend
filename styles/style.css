@@ -11,7 +11,6 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Roboto Slab', serif;
-    --fonte-android: 'Android', cursive;
 }
 
 * {
@@ -181,7 +180,8 @@ li {
 }
 
 footer {
-    justify-content: baseline;
+    bottom: 0;
+    position:-ms-page;
     min-width: 55.5em;
     text-align: center;
     background-color: var(--cor3);
