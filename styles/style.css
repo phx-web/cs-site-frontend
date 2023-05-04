@@ -30,8 +30,8 @@ a.externo::after {
 header {
     background-color: var(--cor3);
     color: white;
-    padding: 0.5em;
-    min-height: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     min-width: 100%;
     display: flex;
     justify-content: center;
@@ -186,7 +186,6 @@ li {
 
 footer {
     bottom: 0;
-    position: -ms-page;
     min-width: 100%;
     text-align: center;
     background-color: var(--cor3);
